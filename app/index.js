@@ -11,7 +11,7 @@ app.use(express.json());
 // Should never be committed to git - caught by secrets scanning (Gitleaks)
 // and static analysis (Semgrep).
 // const API_KEY = 'sk-demo-hardcoded-key-12345';
-const API_KEY = 'sk-live-a8f3k2m9x7q1w4e6r8t0y2u4i6o8p0a2';
+const API_KEY = 'a8f3k2m9x7q1w4e6r8t0y2u4i6o8p0a2';
 
 // VULNERABILITY 2: eval() run on user-supplied input.
 // This lets an attacker run arbitrary JavaScript on the server - a
